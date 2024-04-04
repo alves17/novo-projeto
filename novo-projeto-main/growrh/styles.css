@@ -1,0 +1,7 @@
+@import url(styles/header.css);
+@import url(styles/principal.css);
+
+body{
+    background-color: black;
+    color: rgb(99,133,237);
+}
