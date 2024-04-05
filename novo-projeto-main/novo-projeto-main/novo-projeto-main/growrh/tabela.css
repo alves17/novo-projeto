@@ -1,0 +1,18 @@
+.empregos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: 2px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: border-color 0.3s;
+}
+
+.nome{
+    display: inline-block;
+    border: 2px solid rgb(26, 26, 26);
+    width: 60px;
+    border: 2px;
+}
