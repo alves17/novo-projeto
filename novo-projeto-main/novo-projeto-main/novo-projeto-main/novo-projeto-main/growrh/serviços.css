@@ -1,0 +1,56 @@
+.serviços{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border: 2px solid rgb(54, 54 60);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: border-color 0.3s;
+}
+
+.serviços:hover{
+    border-color: rgb (131, 132, 184);
+}
+
+.serviços a {
+    text-decoration: none;
+    color: rgb(156, 168, 221);
+    padding: 10px;
+}
+
+.serviços a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.our_services{
+    display: inline-block;
+    background-color: rgb(55, 49, 93);
+    color: rgb(98, 79, 165);
+    font-size: 20px;
+    border: 2px solid transparent;
+    padding: 15px;
+    text-align: left;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+    text-decoration: none;
+    margin: 40px;
+    width: auto;
+    float: left;
+}
+
+.our_services a {
+    color: rgb( 2,2 51);
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.our_services:hover{
+    border-color: rgb(223, 225, 235);
+}
+
+.our_services a:hover {
+    color: rgb(245, 245, 250);
+}
